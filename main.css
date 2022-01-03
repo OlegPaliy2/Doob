@@ -1,0 +1,122 @@
+@import 'fonts.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    color: #314584;
+    font-family: WorkSans;
+}
+section{
+    margin: 40px auto;
+}
+.logo{
+    width: 60px;
+    background-image: url(Images/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+li{
+    list-style: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.burger{
+    width: 30px;
+    height: 30px;
+    background-image: url(Images/menu-button-of-three-horizontal-lines.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+.burgerClose{
+     background-image: url(Images/close.png);
+}
+header{
+    padding: 10px;
+    height: 60px;
+    border: 1px solid #000;
+}
+.contactButton{
+    display: none;
+}
+
+select, option{
+    border: none;
+    color: #314584;
+    font-weight: bold;
+    height: 100%;
+    font-size: 20px;
+}
+
+a{
+    color: #314584;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+a:hover{
+    color: #FF3946;
+}
+.card{
+    text-align: center;
+}
+.card li{
+    height: 60px;
+    width: 100%;
+}
+
+.leftAside h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.leftAside p{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+    
+}
+.redButton{
+    display: block;
+    border: none;
+    background-color: #FF3946;
+    border-radius: 40px;
+    padding: 17px; 
+    color: white;
+    font-size: 20px;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    margin: 40px auto;
+}
+.redButton:hover{
+     color:#314584;
+     background-color:white;
+     outline:2px solid #FF3946;
+}
+.regLink{
+    display: block;
+    font-size: 20px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.slider{
+    width: 300px;
+    height: 350px;
+    background-image: url(Images/Main.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 20px auto;
+
+}
