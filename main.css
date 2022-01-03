@@ -117,6 +117,7 @@ a:hover {
     color: #314584;
     background-color: white;
     outline: 2px solid #FF3946;
+    border-radius: 40px;
 }
 
 .regLink {
