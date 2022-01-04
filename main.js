@@ -14,7 +14,7 @@
     })
 })();
 
-$('.seeMore').click(function(){
+$('.seeMore').click(function () {
     const id = $(this).attr('href');
     const offset = $(id).offset().top;
     $('html').animate({
